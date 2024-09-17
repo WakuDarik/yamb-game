@@ -1,6 +1,6 @@
 // src/components/PlayerSetup.tsx
 import React, { useState } from 'react';
-import { Player, Category, Score } from '../types';
+import { Player, Category } from '../types';
 
 interface PlayerSetupProps {
   onSetupComplete: (players: Player[]) => void;
